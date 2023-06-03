@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUser"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_person"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2"
+                app:portion_spacing="4dp"
+                app:portion_width="4dp"
+                app:portions_count="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/statusTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/_14_00pm"
+                    android:textColor="#5E5B5B"
+                    android:textSize="15sp"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/desctiptionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="1dp"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+        android:id="@+id/img_status"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/dog"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169502528776",
+    "firebase_url": "https://zalo-b293e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zalo-b293e",
+    "storage_bucket": "zalo-b293e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169502528776:android:d7ff92072ec45e2eb588bd",
+        "android_client_info": {
+          "package_name": "com.hcmute.edu.vn.zalo.group11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169502528776-v6kaj1vdmpbf5que0t1g5060fguduvj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hcmute.edu.vn.zalo.group11",
+            "certificate_hash": "e75b5621406a0d6c743159ff86cdf4b78e1a5a2c"
+          }
+        },
+        {
+          "client_id": "169502528776-5cgf3u0mk6hl8dmsiqk0e447bln5dv2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPH-nRJ1Ioh0xqMWNlWe_MboXtFyaLiQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169502528776-5cgf3u0mk6hl8dmsiqk0e447bln5dv2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

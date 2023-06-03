@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hcmute.edu.vn.zalo.group11">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_zalo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_zalo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zalo"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.AddStatusActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.MainActivity"/>
+        <activity
+            android:name=".activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WelcomeScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SetupProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PhoneNumberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@android:array/phoneTypes" />
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_baseline_send_24" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/blue" />
+
+    </application>
+
+</manifest>

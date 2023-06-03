@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="@string/tin_nh_n"/>
+
+    <item android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        android:title="@string/danh_b"/>
+
+    <item android:id="@+id/timeline"
+        android:icon="@drawable/ic_baseline_access_time_filled_24"
+        android:title="@string/nh_t_k"/>
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/c_nh_n"/>
+
+</menu>
